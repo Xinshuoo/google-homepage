@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div>
-            <form>
-                <input type="text" placeholder="search">
-                <input type="submit">Search
-            </form>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="default.asp">Home</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="contact.asp">Contact</a></li>
+                <li><a href="about.asp">About</a></li>
+            </ul> 
+        </nav>
+        <main class="main">
+            <img class="logo" alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            <div class="searchbar">
+                <form>
+                    <input type="text" placeholder="Search">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </main>
     </body>
 </html>
